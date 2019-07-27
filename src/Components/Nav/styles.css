@@ -1,0 +1,22 @@
+.navbar {
+    margin: 0;
+    padding: 0px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 245, 245, 0.911);
+    background-color: #ffffff;
+}
+.main-nav {
+    list-style-type: none;
+}
+.main-nav li {
+    display: inline-block;
+}
+.nav-links {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    margin: 8px;
+   
+}
+
+
+ 

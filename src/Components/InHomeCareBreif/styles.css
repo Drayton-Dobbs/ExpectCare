@@ -1,0 +1,14 @@
+.inHomeSection {
+    display: flex;
+    justify-content: space-around;
+}
+.inHomeArticle {
+    max-width: 450px;
+    display: inline-block;
+    text-align: justify;
+    margin-bottom: 55px;
+}
+h2 {
+    color: #638215;
+    text-align: center;
+}

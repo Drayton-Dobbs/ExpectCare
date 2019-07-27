@@ -1,0 +1,16 @@
+header{
+  height: 28px;
+}
+
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+#headerLogo {
+  height: 30px;
+  padding: 4px;
+}

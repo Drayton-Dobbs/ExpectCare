@@ -1,0 +1,46 @@
+footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 5px 0px;
+}
+
+footer a {
+  color: #96c277;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:visited{
+  color: #96c277;
+}
+
+footer a:hover {
+  color: rgb(181, 228, 148);
+}
+
+footer .listTitle {
+  margin-bottom: 4px;
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+}
+
+.footerItemWrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerItem{
+  width: 40%;
+  display: inline-block;
+}
+
+.socialIconsWrapper {
+  margin: 4px 10px 0px 0px;
+}
+
+.map {
+  margin-top: 10px;
+}

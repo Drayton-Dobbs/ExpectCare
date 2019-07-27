@@ -1,0 +1,34 @@
+.landingPageItems {
+    width: 25%
+}
+.serviceItemWrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.serviceItem {
+    padding: 25px;
+    width: 300px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.serviceItem img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.serviceItem h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.serviceItem p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.serviceItem:hover {
+    background-color: rgb(238, 238, 238);
+}
