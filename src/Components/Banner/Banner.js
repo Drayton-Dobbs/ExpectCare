@@ -7,17 +7,12 @@ class Banner extends React.Component {
     return (
       <section class='banner'>
         <div class='bannerItemsWrapper'>
-          <img className='bannerImg'
-          src='http://www.expectcare.com/images/InHomeCare.jpg'
-          alt='In Home Care' />
           <div class='bannerDescriptionWrapper'>
             <h1 class='bannerTitle  brandFontBold'>In-Home Care</h1>
             <p className='bannerDecription brandFontCondensed'>
-              ExpectCare’s professional staff and volunteers serve our 
-              patients and their families, whether in the comfort of 
-              their homes or other care facilities.
+            At ExpectCare, we apply our mission of glorifying God by serving our clients, families, and the community. As a faith-based organization, we seek to meet the needs and expectations of those that we serve each day through providing healing and compassionate care. We believe in doing our very best - and then some.
             </p>
-            <button class='bannerButton'>Learn More</button>
+            <button class='bannerButton'><strong>Contact Us Today</strong></button>
           </div>
         </div>
       </section>

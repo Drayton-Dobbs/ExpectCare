@@ -1,22 +1,39 @@
-.navbar {
+.logo {
     margin: 0;
-    padding: 0px;
-    font-size: 14px;
-    border: 1px solid rgba(255, 245, 245, 0.911);
-    background-color: #ffffff;
+    padding: 200px;
+    height: 40px;  
+    padding-top: 5px;
 }
-.main-nav {
-    list-style-type: none;
+.collapse {
+    display: flex;
+    justify-content: end;
 }
-.main-nav li {
-    display: inline-block;
+.nav-link {
+    margin-left: 6px;
+    margin-right: 6px;
+    color: rgb(2, 77, 144);
 }
-.nav-links {
-    text-decoration: none;
-    color: rgb(66, 66, 66);
-    margin: 8px;
-   
+.navbar {
+    background-color: rgb(2, 77, 144);
+    width: 100%;
+    height: 50px;
 }
-
-
- 
+.consultBtn {
+    padding: 9px;
+    background-color: rgb(2, 77, 144);
+    font-weight: 600;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 7px;
+}
+.consultBtn:hover {
+    cursor: pointer;
+    background-color: rgb(182, 182, 182);
+}
+#call {
+    color: white;
+}
+#call:hover {
+    color: rgb(182, 182, 182);
+}

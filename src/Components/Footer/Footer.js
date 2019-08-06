@@ -17,7 +17,8 @@ class Footer extends React.Component {
               <li>1220 20th Street South</li>
               <li>Birmingham, AL 35205</li>
               <li>Find us on the map.</li>
-              <li>Office: 205.939.4122</li>
+              <li>Hospice: 205.444.0126</li>
+              <li>In-Home Care: 205.939.4122</li>
               <li>Fax: 205.444.0128</li>
               <li className='socialIconsWrapper'>
                 <a src=''>

@@ -1,21 +1,25 @@
 import React from 'react'
 
-// Componets
-import Header from './Components/Header/Header'
+// Components
 import Banner from './Components/Banner/Banner'
 import LandingPageCollapsible from './Components/ExpandableComponents/LandingPageCollapsible'
 import Footer from './Components/Footer/Footer'
-import ExpectChange from './Components/ExpectChange/ExpectChange'
+import ExpectChangeCom from './Components/ExpectChangeCom/ExpectChangeCom'
+import Break1 from './Components/Break1/Break1'
+import Nav from './Components/Nav/Nav'
+import Nav2 from './Components/Nav2/Nav2'
 
-import './app.css'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Nav />
+      <Nav2 />
       <Banner />
+      <Break1 />
       <LandingPageCollapsible />
-      <ExpectChange />
+      <ExpectChangeCom />
       <Footer />
     </div>
   )

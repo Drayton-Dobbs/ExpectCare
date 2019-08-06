@@ -1,0 +1,90 @@
+.ExpectChangeComContainer {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url('../../images/colorMain.PNG');
+}
+.changeTitle {
+    padding: 0px;
+    margin: 0px;
+    color: #638215;
+}
+.changeMission {
+    width: 800px;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.changeMission2 {
+    width: 800px;
+    font-size: 25px;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: whitesmoke;
+    padding: 3px;
+    margin-bottom: 35px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .grid-item:hover {
+      background-color: rgb(246, 246, 246);
+      cursor: pointer;
+  }
+.title {
+    margin-bottom: 35px;
+    color: rgb(93, 93, 93);
+    font-weight: bold;
+}
+.title2 {
+    margin-bottom: 35px;
+    right: 100px;
+    color: rgb(47, 47, 47);
+    font-weight: bold;
+}
+.changeMission2Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.picHolder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.changeMission {
+    color: rgb(66, 66, 66);
+}
+.changeMission2 {
+    margin-top: 30px;
+}
+.volunteer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+    font-weight: bold!important;
+}
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin: 25px;
+    width: 200px!important;
+    background-color: #8ac063;
+    color: #333;
+    margin-bottom: 70px;
+}
+.btn:hover {
+    background-image: url('../../images/colorMain.PNG');
+    color: #333;
+}
+.logo {
+    margin-top: 35px;
+}

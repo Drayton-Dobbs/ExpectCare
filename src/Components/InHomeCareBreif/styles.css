@@ -1,12 +1,15 @@
 .inHomeSection {
     display: flex;
     justify-content: space-around;
+    background-color: whitesmoke;
 }
 .inHomeArticle {
-    max-width: 450px;
+    max-width: 600px;
     display: inline-block;
     text-align: justify;
     margin-bottom: 55px;
+    background-color: whitesmoke;
+    margin-top: 25px;
 }
 h2 {
     color: #638215;

@@ -1,7 +1,8 @@
 .banner {
-  background-color: #9dcf63;
+  background-size: cover;
   width: 100%;
   min-height: 45vh;
+  height: 100vh;
   background: cover;
   color: black;
   padding: 0px;
@@ -9,10 +10,10 @@
 }
 
 .bannerButton{
-  background-color: white; /* Green */
+  background-color: rgb(245, 245, 245); /* Green */
   border: none;
   border-radius: 10px;
-  color: rgb(117, 223, 121);
+  color: #00c732;
   cursor: pointer;
   display: inline-block;
   margin: 10px auto auto 0px;
@@ -23,7 +24,7 @@
 }
 
 .bannerButton:hover{
-  background-color: rgb(215, 216, 215); /* Green */
+  background-color: #00ff40; /* Green */
   color: white;
 }
 
@@ -34,12 +35,18 @@
   top: 25%;
   -ms-transform: translateY(-10%);
   transform: translateY(-10%);
+  padding: 30px;
+  background-color: 
+
+
+  rgba(0, 0, 0, 0.3)
 }
 
 .bannerDecription{
   margin: 0px;
   padding: 0px;
-  color: rgb(245, 245, 245);
+  color: rgb(255, 255, 255);
+  font-size: 28px;
 }
 
 .bannerImg{
@@ -54,13 +61,15 @@
 .bannerTitle {
   padding: 0px;
   margin: 0px;
-  color: #638215;
+  color: rgb(2, 77, 144);
 }
 
 .bannerItemsWrapper{
   width: 60%;
   margin: 20px auto;
+  margin-top: 0;
   position: relative;
   height: 100%;
+  right: 200px;
 }
 

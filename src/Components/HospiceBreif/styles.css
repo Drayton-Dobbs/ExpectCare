@@ -1,11 +1,27 @@
 .hospiceSection {
     display: flex;
     justify-content: space-around;
+    background-color: whitesmoke;
 }
 .hospiceArticle {
-    max-width: 350px;
+    max-width: 650px;
     display: inline-block;
     text-align: justify;
     padding: 15px;
     margin: 25px;
+}
+.two {
+    max-width: 1000px!important;
+    position: relative;
+    left: 148px;
+}
+.one {
+    position: relative;
+    left: 11%;
+    max-width: 1000px;
+}
+.three {
+    position: relative;
+    max-width: 1000px;
+    left: 11%;
 }

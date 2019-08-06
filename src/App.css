@@ -46,3 +46,10 @@ html,body,h1,h2,h3,h4,h5,h6,section,article,p,ul,li,span,div,nav,header,footer {
   font-weight: 700;
   font-style: italic;
 }
+.line {
+  width: 80%;
+  background-color: rgb(73, 73, 73);
+  height: 1px; 
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
