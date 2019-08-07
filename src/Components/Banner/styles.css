@@ -13,7 +13,7 @@
   background-color: rgb(245, 245, 245); /* Green */
   border: none;
   border-radius: 10px;
-  color: #00c732;
+  color: rgb(153,201,63);
   cursor: pointer;
   display: inline-block;
   margin: 10px auto auto 0px;
@@ -24,7 +24,7 @@
 }
 
 .bannerButton:hover{
-  background-color: #00ff40; /* Green */
+  background-color: rgb(153,201,63); /* Green */
   color: white;
 }
 
@@ -46,7 +46,7 @@
   margin: 0px;
   padding: 0px;
   color: rgb(255, 255, 255);
-  font-size: 28px;
+  font-size: 35px;
 }
 
 .bannerImg{
@@ -62,6 +62,7 @@
   padding: 0px;
   margin: 0px;
   color: rgb(2, 77, 144);
+  font-size: 46px;
 }
 
 .bannerItemsWrapper{

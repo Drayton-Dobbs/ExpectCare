@@ -13,6 +13,8 @@ class Nav extends React.Component {
               <a class="nav-link" href="#">About</a>
               <a class="nav-link" href="#">Services</a>
               <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Donate</a>
+              <a class="nav-link" href="#">Volunteer</a>
               <a class="nav-link" href="#">Careers</a>
             </ul>
           </div>

@@ -8,6 +8,8 @@ import ExpectChangeCom from './Components/ExpectChangeCom/ExpectChangeCom'
 import Break1 from './Components/Break1/Break1'
 import Nav from './Components/Nav/Nav'
 import Nav2 from './Components/Nav2/Nav2'
+import AboutTheOwner from './Components/AboutTheOwner/AboutTheOwner'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 import './App.css'
 
@@ -19,7 +21,8 @@ function App() {
       <Banner />
       <Break1 />
       <LandingPageCollapsible />
-      <ExpectChangeCom />
+      <Testimonials />
+      <AboutTheOwner />
       <Footer />
     </div>
   )

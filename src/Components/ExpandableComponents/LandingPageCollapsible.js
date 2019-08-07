@@ -30,17 +30,16 @@ class LandingPageCollapsible extends React.Component {
 	render() {
 		return (
 			<div className="landingPageCollapsible">
-				
+
 				<div className="serviceItemWrapper">
 
 					<div className="serviceItem" id="HospiceBreif" onClick={this.onChoice}>
 						<img src={Hands} />
 						<h2>
 							<strong>
-							Hospice Care
+								Hospice Care
 							</strong>
-							
-							</h2>
+						</h2>
 						<p>Your many hospice options should be discussed with professionals.</p>
 					</div>
 
@@ -48,21 +47,33 @@ class LandingPageCollapsible extends React.Component {
 						<img src={InHomeCare} />
 						<h2>
 							<strong>
-							In-Home Care
+								In-Home Care
 							</strong>
-							
-							</h2>
+						</h2>
 						<p>Caring resources you can rely on and deserve.</p>
 					</div>
+
+					<div className="serviceItem" id="HospiceBreif" onClick={this.onChoice}>
+						<img src={Hands} />
+						<h2>
+							<strong>
+								Hospice Care
+							</strong>
+
+						</h2>
+						<p>Your many hospice options should be discussed with professionals.</p>
+					</div>
+
 				</div>
+
 				{
 					this.state.display === 'HospiceBreif' ? <HospiceBreif />
 						: this.state.display === 'InHomeBreif' ? <InHomeBreif />
 							: ''
 				}
-<div style={{height: '1px', width: '100%', backgroundColor: '#333'}}>
+				<div style={{ height: '1px', width: '100%', backgroundColor: '#333' }}>
 
-</div>
+				</div>
 			</div>
 		)
 	}
