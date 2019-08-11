@@ -1,0 +1,85 @@
+.servicesContainer {
+    width: 100%;
+    background-color: white;
+}
+.servicesHeader {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    font-size: 20px;
+    background-color: rgb(2, 77, 144);
+    border-top: 4px solid rgb(153, 201, 63);
+    border-bottom: 4px solid rgb(153, 201, 63);
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+}
+.servicesTitle {
+    margin: 0;
+    padding: 0;
+    margin-top: 9px;
+}
+.topServices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.servicesList2 {
+    height: 500px;
+    width: 400px;
+}
+.servicesListTitle {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+}
+.servicesListUl {
+    position: relative;
+    left: 18%;
+}
+.servicesList1 {
+    height: 500px;
+    width: 400px;
+    background-image: url('../../images/expectMap.jpg');
+    background-size: cover;
+}
+.servicesListItem {
+    font-size: 20px;
+}
+.inHomeContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hospiceContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+.inHomeServicesPic {
+    background-image: url('../../images/hands.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+.inHomeServicesPara {
+    width: 600px;
+    font-size: 21px;
+    text-align: center;
+}
+.hospiceServicesPara {
+    width: 600px;
+    font-size: 21px;
+    text-align: center;
+}
+.hospiceServicesPic {
+    background-image: url('../../images/InHomeCare.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    
+}

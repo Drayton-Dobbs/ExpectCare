@@ -10,6 +10,8 @@ import Nav from './Components/Nav/Nav'
 import Nav2 from './Components/Nav2/Nav2'
 import AboutTheOwner from './Components/AboutTheOwner/AboutTheOwner'
 import Testimonials from './Components/Testimonials/Testimonials'
+import Services from './Components/Services/Services'
+import Donate from './Components/Donate/Donate'
 
 import './App.css'
 
@@ -23,6 +25,8 @@ function App() {
       <LandingPageCollapsible />
       <Testimonials />
       <AboutTheOwner />
+      <Services />
+      <Donate />
       <Footer />
     </div>
   )

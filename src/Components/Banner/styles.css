@@ -1,76 +1,13 @@
 .banner {
-  background-size: cover;
-  width: 100%;
-  min-height: 45vh;
   height: 100vh;
-  background: cover;
-  color: black;
-  padding: 0px;
-  margin: 0px;
+  width: 100%;
+  background-color: aqua;
 }
-
-.bannerButton{
-  background-color: rgb(245, 245, 245); /* Green */
-  border: none;
-  border-radius: 10px;
-  color: rgb(153,201,63);
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px auto auto 0px;
-  padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.bannerButton:hover{
-  background-color: rgb(153,201,63); /* Green */
-  color: white;
-}
-
-.bannerDescriptionWrapper {
-  display: inline-block;
-  margin: 0;
-  position: absolute;
-  top: 25%;
-  -ms-transform: translateY(-10%);
-  transform: translateY(-10%);
-  padding: 30px;
-  background-color: 
-
-
-  rgba(0, 0, 0, 0.3)
-}
-
-.bannerDecription{
-  margin: 0px;
-  padding: 0px;
-  color: rgb(255, 255, 255);
-  font-size: 35px;
-}
-
-.bannerImg{
-  display: inline-block;
-  width: 346px;
-  margin-top: 44px;
-  margin-right: 30px;
-  border: 1px white solid;
-  border-radius: 10px;
-}
-
-.bannerTitle {
-  padding: 0px;
-  margin: 0px;
-  color: rgb(2, 77, 144);
-  font-size: 46px;
-}
-
-.bannerItemsWrapper{
-  width: 60%;
-  margin: 20px auto;
-  margin-top: 0;
-  position: relative;
+.mapContainer {
   height: 100%;
-  right: 200px;
+  width: 40%;
+  position: relative;
+  left: 0;
+  top: 100px;
 }
 

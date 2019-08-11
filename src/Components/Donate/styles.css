@@ -1,0 +1,27 @@
+.expectChangeTwo {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/ExpectChange.png');
+    height: 120px;
+    width: 302px;
+}
+.expectChangeOne {
+    width: 800px;
+}
+.expectChangeBanner {
+    width: 100%;
+}
+.expectChangeFullContainer {
+    width: 100%;
+    text-align: center;
+}
+.expectChangeContainer {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.expectChangeLogoPic {
+    display: flex;
+    justify-content: center;
+}
