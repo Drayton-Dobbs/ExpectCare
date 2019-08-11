@@ -6,8 +6,8 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <div>
-                    <h1>We want to hear from you!</h1>
+                <div className="contactHeader">
+                    <h1 className="brandFontBold">We want to hear from you!</h1>
                 </div>
 
                 <div>
@@ -15,17 +15,17 @@ class Contact extends React.Component {
                     <div className="formContainer">
                       
                         <form className="form" action="/action_page.php">
-                            <div>Contact Us Today</div>
+                            <h3 className="brandFontBold contactTitle">Contact Us Today</h3>
                             <input className="text" type="text" name="firstname" value="Name" />
                             <br />
                             <input className="text" type="text" name="lastname" value="Email" />
                             <br />
                             <input className="text" type="text" name="lastname" value="Phone Number" />
                             <br />
-                            <textarea className="text" rows="5" cols="20" id="TITLE">
+                            <textarea className="textArea" rows="5" cols="60" id="TITLE">
                             </textarea>
                             <br />
-                            <input type="submit" value="Submit" />
+                            <input className="submitBtn" type="submit" value="Submit" />
                         </form>
                     </div>
 
