@@ -7,7 +7,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <div className="contactHeader">
-                    <h1 className="brandFontBold">We want to hear from you!</h1>
+                    <h1 className="brandFont">We want to hear from you!</h1>
                 </div>
 
                 <div>
