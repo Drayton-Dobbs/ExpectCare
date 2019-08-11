@@ -1,31 +1,26 @@
-.logo {
-    margin: 0;
-    padding: 200px;
-    height: 40px;  
-    padding-top: 5px;
-}
+
 .collapse {
     display: flex;
     justify-content: end;
 }
-.nav-link {
-    margin-left: 6px;
-    margin-right: 6px;
-    color: rgb(2, 77, 144);
+.nav-link-phone {
+    height: 5px;
 }
 .navbar {
     background-color: rgb(2, 77, 144);
     width: 100%;
-    height: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .consultBtn {
-    padding: 9px;
+    padding: 0;
     background-color: rgb(2, 77, 144);
-    font-weight: 600;
+    font-weight: 300;
     border: 0;
     color: white;
-    font-size: 18px;
-    padding-bottom: 7px;
+    font-size: 15px;
+    padding-right: 20px;
 }
 .consultBtn:hover {
     cursor: pointer;

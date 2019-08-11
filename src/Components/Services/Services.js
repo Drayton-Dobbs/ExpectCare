@@ -16,21 +16,21 @@ class Services extends React.Component {
 
                 <div className="servicesList2">
                     <div className="servicesListTitle">
-                        <h3>Our Services Include</h3>
+                        <h3 className="brandFont">Our Services Include</h3>
                     </div>
 
                     <div className="servicesListUl">
                         <ul>
-                            <li className="servicesListItem">Respite</li>
-                            <li className="servicesListItem">Housekeeping Services</li>
-                            <li className="servicesListItem">24 Hour Care</li>
-                            <li className="servicesListItem">Meal Planning and Preparartion</li>
-                            <li className="servicesListItem">Companionship</li>
-                            <li className="servicesListItem">Long Term Care</li>
-                            <li className="servicesListItem">Bathing / Dressing</li>
-                            <li className="servicesListItem">Errands</li>
-                            <li className="servicesListItem">Laundry</li>
-                            <li className="servicesListItem">Transportation Services</li>
+                            <li className="serviceListItem">Respite</li>
+                            <li className="serviceListItem">Housekeeping Services</li>
+                            <li className="serviceListItem">24 Hour Care</li>
+                            <li className="serviceListItem">Meal Planning and Preparartion</li>
+                            <li className="serviceListItem">Companionship</li>
+                            <li className="serviceListItem">Long Term Care</li>
+                            <li className="serviceListItem">Bathing / Dressing</li>
+                            <li className="serviceListItem">Errands</li>
+                            <li className="serviceListItem">Laundry</li>
+                            <li className="serviceListItem">Transportation Services</li>
                         </ul>
                     </div>
                 </div>

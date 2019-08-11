@@ -6,45 +6,9 @@ html,body{
 }
 
 html,body,h1,h2,h3,h4,h5,h6,section,article,p,ul,li,span,div,nav,header,footer {
-  font-family: myriad-pro,sans-serif;
-  font-weight: 400;
+  font-family: kepler-std,serif;
+  font-weight: 300;
   font-style: normal;
-}
-
-.brandFontCondensed {
-  font-family: myriad-pro-condensed, sans-serif; 
-  font-weight: 400; 
-  font-style: normal;
-}
-
-.brandFontCondensedItalic{
-  font-family: myriad-pro-condensed,sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.brandFontItalic{
-  font-family: myriad-pro,sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.brandFontBold {
-  font-family: myriad-pro,sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.brandFontBoldCondensed{
-  font-family: myriad-pro-condensed,sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.brandFontBoldItalic {
-  font-family: myriad-pro,sans-serif;
-  font-weight: 700;
-  font-style: italic;
 }
 .line {
   width: 80%;
@@ -52,4 +16,26 @@ html,body,h1,h2,h3,h4,h5,h6,section,article,p,ul,li,span,div,nav,header,footer {
   height: 1px; 
   margin-top: 20px;
   margin-bottom: 35px;
+}
+.brandFont{
+  font-family: oswald,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brandFontLight{
+  font-family: oswald,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.brandFontBold{
+  font-family: oswald,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.contentFont{
+  font-family: kepler-std,serif;
+  font-weight: 300;
+  font-style: normal;
 }
