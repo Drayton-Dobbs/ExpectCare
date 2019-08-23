@@ -35,7 +35,7 @@ class LandingPageCollapsible extends React.Component {
 
 					<div className="serviceItem" id="HospiceBreif" onClick={this.onChoice}>
 						<img src={Hands} />
-						<h2>
+						<h2 className="brandFont">
 							<strong>
 								Hospice Care
 							</strong>
@@ -55,7 +55,7 @@ class LandingPageCollapsible extends React.Component {
 
 					<div className="serviceItem" id="HospiceBreif" onClick={this.onChoice}>
 						<img src={Hands} />
-						<h2>
+						<h2 className="brandFont">
 							<strong>
 								Hospice Care
 							</strong>
@@ -63,6 +63,8 @@ class LandingPageCollapsible extends React.Component {
 						</h2>
 						<p>Your many hospice options should be discussed with professionals.</p>
 					</div>
+
+					
 
 				</div>
 

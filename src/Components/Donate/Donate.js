@@ -8,13 +8,13 @@ class Donate extends React.Component {
         <div className="expectChangeFullContainer">
             <div className="expectChangeBanner">
                 <div className="expectChangeTitle">
-                    <h1>Expect Change</h1>
+                    <h1 className="brandFont">Expect Change</h1>
                 </div>
             
                 
                 <div className="expectChangeContainer">
                     <div className="expectChangeOne">
-                        <h3>Helping is our Mission</h3>
+                        <h3 >Helping is our Mission</h3>
                         <p>
                         The Mission of ExpectCare is to align the resources of a community to provide life skills training, personal and professional development, consulting, and other social services in an effort to assist those at a disadvantage
                         </p>

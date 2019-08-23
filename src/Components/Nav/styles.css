@@ -24,7 +24,8 @@
 }
 .consultBtn:hover {
     cursor: pointer;
-    background-color: rgb(182, 182, 182);
+    color: rgb(188, 188, 188);
+    background-color: rgb(2, 77, 144);
 }
 #call {
     color: white;

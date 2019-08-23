@@ -1,0 +1,23 @@
+.testimonyContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.testimony {
+    width: 250px;
+    font-size: 20px;
+}
+.testimony2 {
+    width: 350px;
+    font-size: 19px;
+}
+.testTitle {
+    font-size: 30px;
+    position: relative;
+    width: 150px;
+    left: 607px;
+}
+.sigBreak {
+    width: 100%;
+    height: 10px;
+}

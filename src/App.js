@@ -24,10 +24,10 @@ function App() {
       <Banner />
       <Break1 />
       <LandingPageCollapsible />
-      <Testimonials />
-      <AboutTheOwner />
       <Services />
       <Donate />
+      <Testimonials />
+      <AboutTheOwner />
       <Contact />
       <Footer />
     </div>

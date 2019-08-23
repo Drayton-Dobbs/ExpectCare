@@ -15,7 +15,7 @@ class Contact extends React.Component {
                     <div className="formContainer">
                       
                         <form className="form" action="/action_page.php">
-                            <h3 className="brandFontBold contactTitle">Contact Us Today</h3>
+                            <h3 className="brandFont contactTitle">Contact Us Today</h3>
                             <input className="text" type="text" name="firstname" value="Name" />
                             <br />
                             <input className="text" type="text" name="lastname" value="Email" />

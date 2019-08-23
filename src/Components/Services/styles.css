@@ -32,7 +32,7 @@
 .servicesListTitle {
     text-align: center;
     margin-top: 45px;
-    font-size: 25px;
+    font-size: 30px;
 }
 .servicesListUl {
     position: relative;
@@ -44,8 +44,8 @@
     background-image: url('../../images/expectMap.jpg');
     background-size: cover;
 }
-.servicesListItem {
-    font-size: 15px;
+.serviceListItem {
+    font-size: 25px;
 }
 .inHomeContainer {
     display: flex;
@@ -76,7 +76,7 @@
 }
 .hospiceServicesPara {
     width: 600px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 .hospiceServicesPic {
@@ -84,5 +84,7 @@
     background-size: cover;
     height: 350px;
     width: 400px;
-    
+}
+.h3 {
+    font-size: 25px;
 }
